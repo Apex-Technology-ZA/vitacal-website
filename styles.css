@@ -162,11 +162,12 @@ nav a:hover {
   padding: 2rem 1.5rem;
   text-align: center;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .pricing-card.featured {
   border-color: var(--primary);
-  transform: scale(1.05);
 }
 
 .popular-badge {
@@ -229,6 +230,7 @@ nav a:hover {
   border-radius: 8px;
   font-weight: 600;
   transition: background 0.2s;
+  margin-top: auto;
 }
 
 .pricing-cta:hover {
