@@ -434,16 +434,34 @@ footer {
   text-align: center;
 }
 
-.footer-links {
-  margin-bottom: 1rem;
+.footer-columns {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin-bottom: 2rem;
 }
 
-.footer-links a {
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: left;
+}
+
+.footer-col h4 {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
   color: var(--text);
-  margin: 0 1rem;
+  margin-bottom: 0.25rem;
 }
 
-.footer-links a:hover {
+.footer-col a {
+  color: var(--text-light);
+  font-size: 0.9rem;
+}
+
+.footer-col a:hover {
   color: var(--primary);
 }
 
